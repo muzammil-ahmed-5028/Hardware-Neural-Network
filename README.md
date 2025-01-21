@@ -5,4 +5,4 @@ A hardware implementation of a MNIST Feed forward Neural Network.
   and converted to a .mif file for RAM initialziation on Altera BRAM.
 - MACs and output RAM values created with appropriate widths to store the outputs of each layer.
 - Central Controller made which coordinates the architectural state of the controller to allow computation of the system.
-- Hardware Netowrk made in VHDL.
+- Hardware Network made in VHDL.
