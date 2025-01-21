@@ -1,0 +1,284 @@
+{C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity LAYER_2
+-- Compiling architecture behavior of LAYER_2
+-- Loading package altera_mf_components
+-- Loading entity X_INPUT_RAM
+-- Loading entity W_RAM_LAYER_2
+-- Loading entity counter_X
+-- Loading entity counter_W1
+-- Loading entity signed_multiplier_add_comb
+-- Loading entity flip_flop_32bit
+-- Loading entity mux_3to1
+-- Loading entity RAM_OUTPUT
+-- Loading entity counter_LAYER_2_OUTPUT
+-- Loading entity LAYER_3
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_OUTPUT_LAYER_3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_OUTPUT_LAYER_3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity RAM_OUTPUT_LAYER_3
+-- Compiling architecture SYN of ram_output_layer_3
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/W_RAM_LAYER_5.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/W_RAM_LAYER_5.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity W_RAM_LAYER_5
+-- Compiling architecture SYN of w_ram_layer_5
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_OUTPUT_LAYER_4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_OUTPUT_LAYER_4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity RAM_OUTPUT_LAYER_4
+-- Compiling architecture SYN of ram_output_layer_4
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_OUTPUT_LAYER_5.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_OUTPUT_LAYER_5.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity RAM_OUTPUT_LAYER_5
+-- Compiling architecture SYN of ram_output_layer_5
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_4.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity LAYER_4
+-- Compiling architecture behavior of LAYER_4
+-- Loading package altera_mf_components
+-- Loading entity W_RAM_LAYER_4
+-- Loading entity counter_W4
+** Error: C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_4.vhd(104): (vcom-1035) Formal port "update_en" has OPEN or no actual associated with it.
+-- Loading entity signed_multiplier_add_comb
+-- Loading entity flip_flop_32bit
+** Note: C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_4.vhd(124): VHDL Compiler exiting
+
+} {12.0 13.0} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_OUTPUT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_OUTPUT.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity RAM_OUTPUT
+-- Compiling architecture SYN of ram_output
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/ff_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/ff_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity flip_flop_32bit
+-- Compiling architecture behavior of flip_flop_32bit
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_5.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_5.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity LAYER_5
+-- Compiling architecture behavior of LAYER_5
+-- Loading package altera_mf_components
+-- Loading entity W_RAM_LAYER_5
+-- Loading entity counter_W5
+** Error: C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_5.vhd(104): (vcom-1035) Formal port "update_en" has OPEN or no actual associated with it.
+-- Loading entity signed_multiplier_add_comb
+-- Loading entity flip_flop_32bit
+** Note: C:/Users/muzam/Documents/verilog codes/RAM_test/LAYER_5.vhd(124): VHDL Compiler exiting
+
+} {12.0 13.0} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/Counter_LAYER_3_internal.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/Counter_LAYER_3_internal.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_LAYER_3_internal
+-- Compiling architecture behavior of counter_LAYER_3_internal
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/mult.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/mult.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity signed_multiplier_add_comb
+-- Compiling architecture rtl of signed_multiplier_add_comb
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_interconnect.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_interconnect.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RAM_interconnect
+-- Compiling architecture behavior of tb_RAM_rw
+-- Loading entity tb_RAM_rw
+-- Loading package altera_mf_components
+-- Loading entity RAM_OUTPUT_LAYER_3
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_testing_read_and_write.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/RAM_testing_read_and_write.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_RAM_rw
+-- Compiling architecture behavior of tb_RAM_rw
+-- Loading package altera_mf_components
+-- Loading entity RAM_OUTPUT
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/mux3_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/mux3_1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_3to1
+-- Compiling architecture Behavioral of mux_3to1
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/tb_ff32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/tb_ff32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench_flip_flop_32bit
+-- Compiling architecture behavior of testbench_flip_flop_32bit
+-- Loading entity flip_flop_32bit
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_W.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_W.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_W1
+-- Compiling architecture behavior of counter_W1
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/tb_mult.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/tb_mult.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_signed_multiplier_add_comb
+-- Compiling architecture tb_arch of tb_signed_multiplier_add_comb
+-- Loading entity signed_multiplier_add_comb
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_X.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_X.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_X
+-- Compiling architecture behavior of counter_X
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_W3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_W3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_W3
+-- Compiling architecture behavior of counter_W3
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_W4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_W4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_W4
+-- Compiling architecture behavior of counter_W4
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_W5.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_W5.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_W5
+-- Compiling architecture behavior of counter_W5
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/W_RAM_LAYER_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/W_RAM_LAYER_2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity W_RAM_LAYER_2
+-- Compiling architecture SYN of w_ram_layer_2
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/W_RAM_LAYER_3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/W_RAM_LAYER_3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity W_RAM_LAYER_3
+-- Compiling architecture SYN of w_ram_layer_3
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_OUT_LAYER_3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_OUT_LAYER_3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_OUT_LAYER_3
+-- Compiling architecture behavior of counter_OUT_LAYER_3
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_LAYER_2_OUTPUT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_LAYER_2_OUTPUT.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_LAYER_2_OUTPUT
+-- Compiling architecture behavior of counter_LAYER_2_OUTPUT
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/W_RAM_LAYER_4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/W_RAM_LAYER_4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity W_RAM_LAYER_4
+-- Compiling architecture SYN of w_ram_layer_4
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/tb_RAM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/tb_RAM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_RAM
+-- Compiling architecture behavior of tb_RAM
+-- Loading package altera_mf_components
+-- Loading entity X_INPUT_RAM
+
+} {} {}} {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/muzam/Documents/verilog codes/RAM_test/counter_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_X_tb
+-- Compiling architecture behavior of counter_X_tb
+-- Loading entity counter_X
+** Error: C:/Users/muzam/Documents/verilog codes/RAM_test/counter_tb.vhd(29): (vcom-1035) Formal port "update_en" has OPEN or no actual associated with it.
+** Note: C:/Users/muzam/Documents/verilog codes/RAM_test/counter_tb.vhd(37): VHDL Compiler exiting
+
+} {10.0 11.0} {}}

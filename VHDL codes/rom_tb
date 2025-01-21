@@ -1,0 +1,62 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+ENTITY tb_rom IS
+END ENTITY tb_rom;
+
+ARCHITECTURE testbench OF tb_rom IS
+    COMPONENT rom
+        PORT (
+            address : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+            q       : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+        );
+    END COMPONENT;
+
+    -- Signals for ROM interface
+    SIGNAL address_tb : STD_LOGIC_VECTOR(3 DOWNTO 0);
+    SIGNAL q_tb       : STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+BEGIN
+
+    -- Instantiate the ROM module
+    rom_inst : rom
+        PORT MAP (
+            address => address_tb,
+            q       => q_tb
+        );
+
+    -- Stimulus process
+    PROCESS
+    BEGIN
+        -- Test case 1: Read from address 0
+        address_tb <= "0000";
+        WAIT FOR 10 ns;
+        -- Check output q_tb, should be 8'h00
+        ASSERT q_tb = "00000000"
+            REPORT "Test case 1 failed!"
+            SEVERITY ERROR;
+
+        -- Test case 2: Read from address 5
+        address_tb <= "0101";
+        WAIT FOR 10 ns;
+        -- Check output q_tb, should be 8'h55
+        ASSERT q_tb = "01010101"
+            REPORT "Test case 2 failed!"
+            SEVERITY ERROR;
+
+        -- Test case 3: Read from address 15
+        address_tb <= "1111";
+        WAIT FOR 10 ns;
+        -- Check output q_tb, should be 8'hFF
+        ASSERT q_tb = "11111111"
+            REPORT "Test case 3 failed!"
+            SEVERITY ERROR;
+
+        -- Add more test cases as needed...
+
+        -- Stop simulation
+        WAIT;
+    END PROCESS;
+
+END ARCHITECTURE testbench;

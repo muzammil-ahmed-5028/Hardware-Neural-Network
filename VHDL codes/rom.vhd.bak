@@ -1,0 +1,41 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+ENTITY rom IS
+    PORT (
+        address : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+        q       : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+    );
+END ENTITY rom;
+
+ARCHITECTURE behavioral OF rom IS
+    TYPE rom_type IS ARRAY (0 TO 15) OF STD_LOGIC_VECTOR(7 DOWNTO 0);
+    SIGNAL rom_data : rom_type;
+BEGIN
+
+    PROCESS (address)
+        VARIABLE addr_int : INTEGER RANGE 0 TO 15;
+    BEGIN
+        addr_int := TO_INTEGER(UNSIGNED(address));
+        q <= rom_data(addr_int);
+    END PROCESS;
+
+    -- LOAD MIF FILE DATA INTO ROM
+    PROCESS
+        FILE mif_file : TEXT OPEN READ_MODE IS C:\Users\muzam\Documents\verilog codes\RAM_test\data.mif";
+        VARIABLE line : LINE;
+        VARIABLE addr : INTEGER;
+        VARIABLE data : STD_LOGIC_VECTOR(7 DOWNTO 0);
+    BEGIN
+        FOR i IN 0 TO 15 LOOP
+            READLINE(mif_file, line);
+            READ(line, addr);
+            READ(line, data);
+            rom_data(addr) <= data;
+        END LOOP;
+        FILE_CLOSE(mif_file);
+        WAIT;
+    END PROCESS;
+
+END ARCHITECTURE behavioral;
